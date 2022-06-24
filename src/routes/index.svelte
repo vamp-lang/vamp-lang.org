@@ -50,9 +50,9 @@
 
 <style>
   main {
-    padding: 16px 0;
     margin: 0 auto;
     max-width: 1280px;
+    padding: 16px 0;
   }
 
   .columns {
@@ -66,25 +66,25 @@
   }
 
   .column {
-    padding: 16px 32px;
     flex: 1;
+    padding: 16px 32px;
   }
 
   h2 {
-    margin: 0 0 0.5em 0;
     font-size: 1.5rem;
     font-weight: 500;
-    text-transform: uppercase;
     letter-spacing: 0.03em;
     line-height: 1;
+    margin: 0 0 0.5em 0;
+    text-transform: uppercase;
   }
 
   p {
-    margin: 0;
+    color: #404040;
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1em;
-    color: #404040;
+    margin: 0;
   }
 
   a {

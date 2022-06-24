@@ -18,18 +18,18 @@
 
 <style>
   :global(html, body) {
-    margin: 0;
-    padding: 0;
     font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    margin: 0;
+    padding: 0;
   }
 
   header {
+    align-items: center;
     background: #000000;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 16px 32px;
   }
 
@@ -39,10 +39,10 @@
   }
 
   .logo {
-    margin: 0;
-    font-weight: 900;
     font-size: 2rem;
+    font-weight: 900;
     line-height: 1;
+    margin: 0;
     text-transform: uppercase;
   }
 
