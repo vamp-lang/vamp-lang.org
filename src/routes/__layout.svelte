@@ -1,11 +1,16 @@
 <header>
   <a class="logo-link" href="/">
-    <h1 class="logo">Vamp</h1>
+    <h1 class="logo">
+      <span style="letter-spacing: -0.07em">V</span><span
+        style="letter-spacing: 0.02em">A</span
+      ><span style="letter-spacing: 0.03em">M</span>P
+    </h1>
   </a>
   <nav class="nav">
     <a class="nav-item" href="/learn">Learn</a>
     <a class="nav-item" href="/docs">Docs</a>
     <a class="nav-item" href="/play">Play</a>
+    <a class="nav-item" href="https://github.com/vamp-lang/vamp">GitHub</a>
   </nav>
 </header>
 
@@ -15,8 +20,8 @@
   :global(html, body) {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-      sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   }
 
   header {
@@ -34,11 +39,9 @@
   }
 
   .logo {
-    font-family: "DM Sans";
     margin: 0;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2rem;
-    letter-spacing: 0.02em;
     line-height: 1;
     text-transform: uppercase;
   }

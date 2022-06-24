@@ -5,12 +5,7 @@
 <main>
   <div class="columns">
     <div class="column">
-      <h2>A programming language focused on</h2>
-    </div>
-  </div>
-  <div class="columns">
-    <div class="column">
-      <h3>Safety</h3>
+      <h2>Safety</h2>
       <p>
         Vamp is a purely functional programming language with strict typing.
         Vamp's type inference makes the use of explicit type hints optional in
@@ -19,7 +14,7 @@
       </p>
     </div>
     <div class="column">
-      <h3>Simplicity</h3>
+      <h2>Simplicity</h2>
       <p>
         Vamp has a minimalist syntax and small set of composable primitive types
         that are easy to learn. A high-level overview of the language fits
@@ -30,7 +25,7 @@
   </div>
   <div class="columns">
     <div class="column">
-      <h3>Productivity</h3>
+      <h2>Productivity</h2>
       <p>
         Vamp reduces decision fatigue by providing batteries-included tooling
         for package management, linting, autoformatting, as well as a <a
@@ -43,7 +38,7 @@
       </p>
     </div>
     <div class="column">
-      <h3>Portability</h3>
+      <h2>Portability</h2>
       <p>
         Vamp aims to eventually target native, WebAssembly, and JavaScript.
         Cross-platform code will be written with conditional imports and FFI to
@@ -78,14 +73,9 @@
   h2 {
     margin: 0 0 0.5em 0;
     font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1;
-  }
-
-  h3 {
-    margin: 0 0 0.5em 0;
-    font-size: 1.125rem;
-    font-weight: 700;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     line-height: 1;
   }
 
@@ -94,6 +84,7 @@
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1em;
+    color: #404040;
   }
 
   a {
